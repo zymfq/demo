@@ -9,6 +9,7 @@ import java.util.List;
  * @author zym
  * @Date 2019-06-17-20:54
  */
+//@Mapper  如果接口比较多 就在启动类上注解@MapperScan("包名")
 public interface AreaDao {
     /**
      * 列出区域列表
